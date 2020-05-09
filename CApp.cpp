@@ -1,6 +1,8 @@
 #include "CApp.h"
 
 CApp::CApp() {
+    Surf_Display = NULL;
+    
     Running = true;
 }
 
